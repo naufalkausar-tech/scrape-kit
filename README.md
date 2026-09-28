@@ -60,6 +60,6 @@ pytest
 
 ## About
 
-Built by Naufal Kausar ([github.com/naufalkausar-tech](https://github.com/naufalkausar-tech)) with an AI-assisted workflow (Claude Code). I review and test every change before it ships. Related: [cleandata](https://github.com/naufalkausar-tech/cleandata) for cleaning messy CSV/Excel data.
+Written with Claude Code (Anthropic's AI coding agent) for Naufal Kausar's portfolio ([github.com/naufalkausar-tech](https://github.com/naufalkausar-tech)); the AI wrote the code and tests, and the test suite runs automatically on every push (GitHub Actions). This is portfolio code, not client work. Related: [cleandata](https://github.com/naufalkausar-tech/cleandata) for cleaning messy CSV/Excel data.
 
 MIT licensed. Please scrape responsibly: respect each site's terms and robots.txt.
