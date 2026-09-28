@@ -23,7 +23,7 @@ def parse_fields(pairs: list[str]) -> dict[str, str]:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="scrape_kit", description="Polite scraper and resumable bulk downloader")
+    parser = argparse.ArgumentParser(prog="scrape-kit", description="Polite scraper and resumable bulk downloader")
     sub = parser.add_subparsers(dest="command", required=True)
 
     def add_http_options(p: argparse.ArgumentParser) -> None:
